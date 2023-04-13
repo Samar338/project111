@@ -1,0 +1,265 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: url("themeless.jpg");
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+.co {
+	height: 100vh;
+	width: auto;
+}
+
+.con {
+	width: 100%;
+}
+
+.content {
+	margin: 0;
+	position: absolute;
+	width: 67%;
+	height: 100vh;
+	float: left;
+	top: 87px;
+	left: 110px;
+	border-radius: 0 26px 0 26px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	/* This should be flex-end */
+	border: 1px solid #eee;
+	border-left: none;
+	background-color: white;
+}
+.profile{
+	width: 250px;
+	height: 245px;
+	position: fixed;
+	right: 0px;
+	background-color: white;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+
+}
+.Myprofile{
+	color: black;
+	width: 499px;
+	background-color: white;
+	text-align: left;
+	padding-left: 41px;
+	padding-top: 16px;
+	font-size: 23px;
+}
+#user{
+	margin-left: 45px;
+	color: #287bff;
+}
+.UserName{
+	display: flex;
+	gap: 5px;
+	margin-top: 27px;
+
+}
+.Fname{
+	margin: 0;
+	display: inline;
+	color: black;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.lname{
+	color: black;
+	font-size: 17px;
+	margin: 0;
+	display: inline;
+	align-items: right;
+	font-weight: bold;	
+}
+.typeName{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 19px;
+	font-weight: 510;
+  
+}
+
+
+
+
+
+.changePassword{
+color: black;
+margin-top: 70px;
+background-color: #0dbd0d;
+padding: 10px;
+border-radius: 10px;
+left: -45px;
+font-size: 16px;
+width: 172px;
+text-align: center;
+text-align: right;
+border: none;
+display: flex;
+gap: 5px;
+}
+.PchangePassword{
+	margin: 0;
+	display: inline;
+}
+#LockIcon{
+	color: black;
+	margin: 0;
+	margin-top: 2px;
+	display: inline;
+
+
+}
+.logDiv{
+	display: flex;
+	gap: 5px;
+	margin-top: 5px;
+	position: absolute;
+	right: 50px;
+	font-size: 17px;
+}
+.logout{
+	color: #287bff;
+	margin: 0;
+	display: inline;
+	margin-top: 8px;
+	
+}
+.log{
+	color: #287bff;;
+	margin: 0;
+	margin-top: 4px;
+	display: inline;
+}
+.navigation {
+	position: fixed;
+	width: 100px;
+	height: 100%;
+	background-color: #287bff;
+	border-left: 10px solid #287bff;
+	transition: 0, 5s;
+	overflow: hidden;
+	padding: 0;
+}
+
+
+.con {
+	width: 100%;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+.icons{
+color: white;
+
+}
+.navigation.active {
+	width: 80px;
+}
+
+.navigation ul {
+	position: absolute;
+	top: 87px;
+	left: 0;
+	width: 100%;
+	padding: 0;
+}
+
+.navigation ul li {
+	position: relative;
+	width: 100%;
+	list-style: none;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.blueIcon {
+	background-color: white;
+	border-radius: 30% 0%  0%  30%;
+	padding-top: 12px;
+	display: flex;
+	padding-bottom: 12px;
+	width: 150px;
+	color: #287bff;
+	
+	
+	
+}
+
+
+.navigation ul li:nth-child(0) {
+	margin-bottom: 40px;
+	pointer-events: none;
+}
+
+.navigation ul li .icons {
+	position: relative;
+	display: block;
+	min-width: 60px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.details .Orders {
+	position: relative;
+	display: grid;
+	min-height: 323px;
+	background: #f4f4f4;
+	padding: 20px;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	border-radius: 20px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-top:0px;
+}
+
+.details table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+td {
+	text-align: center;
+}
+.details table thead td {
+	font-weight: 600;
+}
+
+.details .Orders table tr {
+	color: black;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.details .Orders table tr:last-child {
+	border-bottom: none;
+}
+
+.details .Orders table tr td {
+	padding: 15px;
+}
+
+.details .Orders table tr td:nth-child(2) {
+	text-align: center;
+}
+
+.status.delivered {
+	padding: 2px 4px;
+	color: black;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 500;
+}
